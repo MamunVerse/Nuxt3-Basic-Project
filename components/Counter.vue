@@ -1,5 +1,4 @@
 <template>
-    <h1>Hello Mamun</h1>
     <button @click="increment">Increment</button>
     <p>{{ count }}</p>
     <button @click="decrement">Decrement</button>
@@ -16,3 +15,4 @@
     count.value--;
   }
 </script>
+
